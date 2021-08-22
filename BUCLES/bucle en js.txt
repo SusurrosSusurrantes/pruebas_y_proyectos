@@ -1,0 +1,41 @@
+Bucle Js
+
+Mulstiplicar
+
+let numero=7
+for (let i = 1 ; i<=10 ; i++){
+
+  console.log (numero, "X", i , "=" , numero*i)
+}
+
+
+Opción más simple
+
+
+for (let i=1; i<=10; i++){		 o si querés i=i+1
+	console.log(i)
+]
+
+WHILE
+
+continuar="s"
+while continuar == "s":
+  print("Dale maquinola")
+  continuar=input("Seguis viciando? ")
+
+
+Es un ciclo indefinido
+
+
+jueguito para poder usar un while
+
+numero=16
+usuario=0
+while usuario != numero:
+  usuario=int(input("cuál es el número? "))
+  if usuario > numero:
+    print("Probá un número menor")
+  elif usuario < numero:
+    print ("Probá un número mayor")
+  else:
+    print("La re pegaste, felicitaciones maquinola")

@@ -1,0 +1,30 @@
+Continue, pass y else
+
+for letra in "Python":
+if letra=="h":
+	continue
+
+
+	print("Viendo la letra: " + letra)
+
+
+Instrucción continue
+
+nombre="Pildoras Informaticas"
+
+contador=0
+
+for i in nombre:
+	if i==" ":
+		continue
+	contador+=1
+
+print(contador)
+
+
+Pass
+
+class MiClase:
+	pass 
+
+
